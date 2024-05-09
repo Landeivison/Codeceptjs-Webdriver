@@ -13,7 +13,13 @@ export const config: CodeceptJS.MainConfig = {
   helpers: {
     WebDriver: {
       url: 'https://automationpratice.com.br/',
-      browser: 'chrome'
+      browser: 'chrome',
+      waitForTimeout: 5000,
+      desiredCapabilities: {
+        chromeOptions: {
+          args: ["--headless"]
+        }
+      }
     }
   },
   include: {
