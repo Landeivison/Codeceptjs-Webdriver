@@ -12,6 +12,7 @@
     "@types/node": "^20.12.7",
     "@wdio/selenium-standalone-service": "^8.15.0",
     "codeceptjs": "^3.6.1",
+    "faker": "^5.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "webdriverio": "^8.36.0"
