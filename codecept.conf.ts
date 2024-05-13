@@ -17,7 +17,7 @@ export const config: CodeceptJS.MainConfig = {
       waitForTimeout: 5000,
       desiredCapabilities: {
         chromeOptions: {
-          args: ["--headless"]
+          //args: ["--headless"]
         }
       }
     }

@@ -3,8 +3,11 @@ Feature('Create user');
 
 Scenario('Create New Account', ({ I }) => {
 
+    //home
     I.amOnPage('/')
     I.click('Cadastro')
+
+    //create user
     I.fillField('#user', faker.name.firstName())
     I.fillField('#email', faker.internet.email())
     I.fillField('#password', '12345678')
