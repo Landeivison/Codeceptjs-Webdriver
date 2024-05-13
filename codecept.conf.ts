@@ -8,7 +8,7 @@ setCommonPlugins();
 
 export const config: CodeceptJS.MainConfig = {
   name: 'automacao-codeceptjs-web',
-  tests: './*_test.ts',
+  tests: './steps/*_test.ts',
   output: './output',
   helpers: {
     WebDriver: {

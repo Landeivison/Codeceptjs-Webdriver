@@ -1,5 +1,5 @@
 var faker = require('faker');
-Feature('login');
+Feature('Create user');
 
 Scenario('Create New Account', ({ I }) => {
 
@@ -15,5 +15,3 @@ Scenario('Create New Account', ({ I }) => {
     I.see('DASHBOARD')
     I.wait(3)
 });
-
-
